@@ -10,7 +10,7 @@
 #SBATCH --mail-type=all
 #SBATCH --mail-user=briankim31415@gmail.com
 
-module load gcc cuda python3
+module load cuda python3
 
 cd ..
 source .venv/bin/activate

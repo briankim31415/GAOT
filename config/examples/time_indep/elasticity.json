@@ -32,9 +32,9 @@
         "name": "Elasticity",
         "metaname": "elliptic_pdes/Elasticity",
         "base_path": "datasets/time_indep/",
-        "train_size": 1024,
-        "val_size": 128,
-        "test_size": 256,
+        "train_size": 16,
+        "val_size": 4,
+        "test_size": 4,
         "batch_size": 64,
         "num_workers": 4,
         "shuffle": true
