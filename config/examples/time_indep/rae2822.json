@@ -29,8 +29,8 @@
         }
     },
     "dataset": {
-        "name": "Circle",
-        "metaname": "compressible_flow/bluff",
+        "name": "RAE2822",
+        "metaname": "compressible_flow/rae2822",
         "base_path": "datasets/time_indep/",
         "train_size": 2048,
         "val_size": 128,
@@ -54,9 +54,9 @@
         }
     },
     "path": {
-        "ckpt_path": ".ckpt/examples/time_indep/circle.pt",
-        "loss_path": ".loss/examples/time_indep/circle.png",
-        "result_path": ".results/examples/time_indep/circle.png",
-        "database_path": ".database/examples/time_indep/circle.csv"
+        "ckpt_path": ".ckpt/examples/time_indep/rae2822.pt",
+        "loss_path": ".loss/examples/time_indep/rae2822.png",
+        "result_path": ".results/examples/time_indep/rae2822.png",
+        "database_path": ".database/examples/time_indep/rae2822.csv"
     }
 }

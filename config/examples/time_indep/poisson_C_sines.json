@@ -29,8 +29,8 @@
         }
     },
     "dataset": {
-        "name": "Circle",
-        "metaname": "compressible_flow/bluff",
+        "name": "Poisson-C-Sines",
+        "metaname": "elliptic_pdes/Poisson-C-Sines",
         "base_path": "datasets/time_indep/",
         "train_size": 2048,
         "val_size": 128,
@@ -54,9 +54,9 @@
         }
     },
     "path": {
-        "ckpt_path": ".ckpt/examples/time_indep/circle.pt",
-        "loss_path": ".loss/examples/time_indep/circle.png",
-        "result_path": ".results/examples/time_indep/circle.png",
-        "database_path": ".database/examples/time_indep/circle.csv"
+        "ckpt_path": ".ckpt/examples/time_indep/poisson_C_sines.pt",
+        "loss_path": ".loss/examples/time_indep/poisson_C_sines.png",
+        "result_path": ".results/examples/time_indep/poisson_C_sines.png",
+        "database_path": ".database/examples/time_indep/poisson_C_sines.csv"
     }
 }

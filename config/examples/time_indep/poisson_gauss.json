@@ -8,10 +8,12 @@
         "test": false,
         "ckpt": false
     },
-
     "model": {
         "name": "goat",
-        "latent_tokens_size": [64, 64],
+        "latent_tokens_size": [
+            64,
+            64
+        ],
         "args": {
             "magno": {
                 "coord_dim": 2,
@@ -26,7 +28,6 @@
             }
         }
     },
-
     "dataset": {
         "name": "Poisson-Gauss",
         "metaname": "elliptic_pdes/Poisson-Gauss",
@@ -38,22 +39,20 @@
         "num_workers": 4,
         "shuffle": true
     },
-
     "optimizer": {
         "name": "adamw",
         "args": {
-            "lr": 8e-4,
+            "lr": 0.0008,
             "weight_decay": 1e-05,
-            "epoch": 100,
+            "epoch": 1,
             "loss_scale": 1.0,
             "eval_every_eps": 2,
             "scheduler": "mix",
-            "max_lr": 1e-3,
-            "min_lr": 1e-4,
-            "final_lr": 5e-5
+            "max_lr": 0.001,
+            "min_lr": 0.0001,
+            "final_lr": 5e-05
         }
     },
-
     "path": {
         "ckpt_path": ".ckpt/examples/time_indep/poisson_gauss.pt",
         "loss_path": ".loss/examples/time_indep/poisson_gauss.png",

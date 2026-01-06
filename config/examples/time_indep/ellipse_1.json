@@ -29,7 +29,7 @@
         }
     },
     "dataset": {
-        "name": "Circle",
+        "name": "Ellipse-1",
         "metaname": "compressible_flow/bluff",
         "base_path": "datasets/time_indep/",
         "train_size": 2048,
@@ -54,9 +54,9 @@
         }
     },
     "path": {
-        "ckpt_path": ".ckpt/examples/time_indep/circle.pt",
-        "loss_path": ".loss/examples/time_indep/circle.png",
-        "result_path": ".results/examples/time_indep/circle.png",
-        "database_path": ".database/examples/time_indep/circle.csv"
+        "ckpt_path": ".ckpt/examples/time_indep/ellipse_1.pt",
+        "loss_path": ".loss/examples/time_indep/ellipse_1.png",
+        "result_path": ".results/examples/time_indep/ellipse_1.png",
+        "database_path": ".database/examples/time_indep/ellipse_1.csv"
     }
 }
