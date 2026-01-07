@@ -1,0 +1,530 @@
+[1/20] Running config/examples/time_dep/ce_crp.json
+Initializing sequential dataset...
+Loading and preprocessing sequential data...
+Sequential data loading and preprocessing complete.
+Detected coordinate mode: fx
+Setting up fixed coordinates mode for sequential data...
+Sequential dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model for sequential data with 2D coordinates
+Number of parameters: 3396548
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:05<00:00,  5.69s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:05<00:00,  5.69s/it]
+Starting sequential model testing...
+Testing in autoregressive mode...
+Testing (autoregressive):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  5.85it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  5.24it/s]
+autoregressive mode error: 1.3394783735275269
+Testing in direct mode...
+Testing (direct):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (direct): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  8.83it/s]
+direct mode error: 1.3396031856536865
+Testing in star mode...
+Testing (star):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  9.07it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  7.72it/s]
+star mode error: 1.339496374130249
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_crp.png
+Saving sequential animation to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_crp.gif...
+Sequential animation saved successfully: /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_crp.gif
+Animation saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_crp.gif
+Sequential model testing complete.
+[2/20] Running config/examples/time_dep/ce_kh.json
+Initializing sequential dataset...
+Loading and preprocessing sequential data...
+Sequential data loading and preprocessing complete.
+Detected coordinate mode: fx
+Setting up fixed coordinates mode for sequential data...
+Sequential dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model for sequential data with 2D coordinates
+Number of parameters: 3396548
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:02<00:00,  2.79s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:02<00:00,  2.79s/it]
+Starting sequential model testing...
+Testing in autoregressive mode...
+Testing (autoregressive):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  6.23it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  5.53it/s]
+autoregressive mode error: 0.7345079183578491
+Testing in direct mode...
+Testing (direct):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (direct): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  9.97it/s]
+direct mode error: 0.7348493337631226
+Testing in star mode...
+Testing (star):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  8.09it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  7.01it/s]
+star mode error: 0.7345572710037231
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_kh.png
+Saving sequential animation to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_kh.gif...
+Sequential animation saved successfully: /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_kh.gif
+Animation saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_kh.gif
+Sequential model testing complete.
+[3/20] Running config/examples/time_dep/ce_rpui.json
+Initializing sequential dataset...
+Loading and preprocessing sequential data...
+Sequential data loading and preprocessing complete.
+Detected coordinate mode: fx
+Setting up fixed coordinates mode for sequential data...
+Sequential dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model for sequential data with 2D coordinates
+Number of parameters: 3396548
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:02<00:00,  2.82s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:02<00:00,  2.82s/it]
+Starting sequential model testing...
+Testing in autoregressive mode...
+Testing (autoregressive):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  6.11it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  5.39it/s]
+autoregressive mode error: 0.5150508880615234
+Testing in direct mode...
+Testing (direct):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (direct): 100%|[34m██████████[0m| 1/1 [00:00<00:00, 10.58it/s]
+direct mode error: 0.5150582790374756
+Testing in star mode...
+Testing (star):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  8.55it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  7.34it/s]
+star mode error: 0.5150519609451294
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_rpui.png
+Saving sequential animation to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_rpui.gif...
+Sequential animation saved successfully: /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_rpui.gif
+Animation saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ce_rpui.gif
+Sequential model testing complete.
+[4/20] Running config/examples/time_dep/ns_gauss.json
+Initializing sequential dataset...
+Loading and preprocessing sequential data...
+Traceback (most recent call last):
+  File "/scratch/09892/briankim31415/GAOT/main.py", line 198, in <module>
+    run_arg_files(config.arg_files, config.debug, config.num_works_per_device)
+  File "/scratch/09892/briankim31415/GAOT/main.py", line 134, in run_arg_files
+    run_arg(FileParser(arg_files[0]).parse_args())
+  File "/scratch/09892/briankim31415/GAOT/main.py", line 104, in run_arg
+    t = Trainer(arg)
+  File "/scratch/09892/briankim31415/GAOT/src/trainer/sequential_trainer.py", line 49, in __init__
+    super().__init__(config)
+  File "/scratch/09892/briankim31415/GAOT/src/core/base_trainer.py", line 74, in __init__
+    self.init_dataset(self.dataset_config)
+  File "/scratch/09892/briankim31415/GAOT/src/trainer/sequential_trainer.py", line 61, in init_dataset
+    data_splits, is_variable_coords = self.data_processor.load_and_process_data()
+  File "/scratch/09892/briankim31415/GAOT/src/datasets/sequential_data_processor.py", line 45, in load_and_process_data
+    raw_data = self._load_raw_sequential_data()
+  File "/scratch/09892/briankim31415/GAOT/src/datasets/sequential_data_processor.py", line 66, in _load_raw_sequential_data
+    raise FileNotFoundError(f"Dataset file not found: {dataset_path}")
+FileNotFoundError: Dataset file not found: datasets/time_dep/NS-Gauss.nc
+[4/20] FAILED config/examples/time_dep/ns_gauss.json (exit 1)
+[5/20] Running config/examples/time_dep/ns_sines.json
+Initializing sequential dataset...
+Loading and preprocessing sequential data...
+Sequential data loading and preprocessing complete.
+Detected coordinate mode: fx
+Setting up fixed coordinates mode for sequential data...
+Sequential dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model for sequential data with 2D coordinates
+Number of parameters: 3396290
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:02<00:00,  2.52s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:02<00:00,  2.52s/it]
+Starting sequential model testing...
+Testing in autoregressive mode...
+Testing (autoregressive):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  6.17it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  5.52it/s]
+autoregressive mode error: 1.3886147737503052
+Testing in direct mode...
+Testing (direct):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (direct): 100%|[34m██████████[0m| 1/1 [00:00<00:00, 10.36it/s]
+direct mode error: 1.388663411140442
+Testing in star mode...
+Testing (star):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  8.40it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  7.19it/s]
+star mode error: 1.3886216878890991
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ns_sines.png
+Saving sequential animation to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ns_sines.gif...
+Sequential animation saved successfully: /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ns_sines.gif
+Animation saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/ns_sines.gif
+Sequential model testing complete.
+[6/20] Running config/examples/time_dep/wave_L_sines.json
+Initializing sequential dataset...
+Loading and preprocessing sequential data...
+Sequential data loading and preprocessing complete.
+Detected coordinate mode: fx
+Setting up fixed coordinates mode for sequential data...
+Sequential dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model for sequential data with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:03<00:00,  3.62s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:03<00:00,  3.62s/it]
+Starting sequential model testing...
+Testing in autoregressive mode...
+Testing (autoregressive):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  5.97it/s]Testing (autoregressive): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  5.34it/s]
+autoregressive mode error: 2.2949352264404297
+Testing in direct mode...
+Testing (direct):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (direct): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  9.75it/s]
+direct mode error: 2.294956684112549
+Testing in star mode...
+Testing (star):   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  7.96it/s]Testing (star): 100%|[34m██████████[0m| 1/1 [00:00<00:00,  6.80it/s]
+star mode error: 2.294938325881958
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/wave_L_sines.png
+Saving sequential animation to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/wave_L_sines.gif...
+Sequential animation saved successfully: /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/wave_L_sines.gif
+Animation saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_dep/wave_L_sines.gif
+Sequential model testing complete.
+[7/20] Running config/examples/time_indep/circle.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.10s)
+Graph building completed in 0.10s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.27s)
+Graph building completed in 0.27s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.80s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.80s/it]
+Starting model testing...
+Relative error: 0.9750985503196716
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/circle.png
+[8/20] Running config/examples/time_indep/cone_F.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.26s)
+Graph building completed in 0.26s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.42s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.42s/it]
+Starting model testing...
+Relative error: 0.9846062660217285
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/cone_F.png
+[9/20] Running config/examples/time_indep/elasticity.json
+Initializing dataset...
+Loading and preprocessing data...
+Traceback (most recent call last):
+  File "/scratch/09892/briankim31415/GAOT/main.py", line 198, in <module>
+    run_arg_files(config.arg_files, config.debug, config.num_works_per_device)
+  File "/scratch/09892/briankim31415/GAOT/main.py", line 134, in run_arg_files
+    run_arg(FileParser(arg_files[0]).parse_args())
+  File "/scratch/09892/briankim31415/GAOT/main.py", line 104, in run_arg
+    t = Trainer(arg)
+  File "/scratch/09892/briankim31415/GAOT/src/trainer/static_trainer.py", line 38, in __init__
+    super().__init__(config)
+  File "/scratch/09892/briankim31415/GAOT/src/core/base_trainer.py", line 74, in __init__
+    self.init_dataset(self.dataset_config)
+  File "/scratch/09892/briankim31415/GAOT/src/trainer/static_trainer.py", line 50, in init_dataset
+    data_splits, is_variable_coords = self.data_processor.load_and_process_data()
+  File "/scratch/09892/briankim31415/GAOT/src/datasets/data_processor.py", line 54, in load_and_process_data
+    raw_data = self._load_raw_data()
+  File "/scratch/09892/briankim31415/GAOT/src/datasets/data_processor.py", line 71, in _load_raw_data
+    raise FileNotFoundError(f"Dataset file not found: {dataset_path}")
+FileNotFoundError: Dataset file not found: datasets/time_indep/Elasticity.nc
+[9/20] FAILED config/examples/time_indep/elasticity.json (exit 1)
+[10/20] Running config/examples/time_indep/ellipse_1.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.27s)
+Graph building completed in 0.27s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.36s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.36s/it]
+Starting model testing...
+Relative error: 0.9857320785522461
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/ellipse_1.png
+[11/20] Running config/examples/time_indep/ellipse_2.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.27s)
+Graph building completed in 0.27s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:03<00:00,  3.85s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:03<00:00,  3.85s/it]
+Starting model testing...
+Relative error: 0.9856884479522705
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/ellipse_2.png
+[12/20] Running config/examples/time_indep/ellipse_3.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.27s)
+Graph building completed in 0.27s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.52s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.52s/it]
+Starting model testing...
+Relative error: 0.9950075745582581
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/ellipse_3.png
+[13/20] Running config/examples/time_indep/naca0012.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.04s)
+Graph building completed in 0.04s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.17s)
+Graph building completed in 0.17s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.04s)
+Graph building completed in 0.04s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.70s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.70s/it]
+Starting model testing...
+Relative error: 1.0526528358459473
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/naca0012.png
+[14/20] Running config/examples/time_indep/naca2412.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.05s)
+Graph building completed in 0.05s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.17s)
+Graph building completed in 0.17s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.04s)
+Graph building completed in 0.04s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.22s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.22s/it]
+Starting model testing...
+Relative error: 1.0266014337539673
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/naca2412.png
+[15/20] Running config/examples/time_indep/poisson_C_sines.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: fx
+Setting up fixed coordinates mode...
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396033
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.24s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.24s/it]
+Starting model testing...
+Relative error: 1.0023787021636963
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/poisson_C_sines.png
+[16/20] Running config/examples/time_indep/poisson_gauss.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: fx
+Setting up fixed coordinates mode...
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396033
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.00s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.00s/it]
+Starting model testing...
+Relative error: 0.9181677103042603
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/poisson_gauss.png
+[17/20] Running config/examples/time_indep/rae2822.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.05s)
+Graph building completed in 0.05s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.17s)
+Graph building completed in 0.17s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.04s)
+Graph building completed in 0.04s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.53s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.54s/it]
+Starting model testing...
+Relative error: 1.024422526359558
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/rae2822.png
+[18/20] Running config/examples/time_indep/rectangle_S.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.26s)
+Graph building completed in 0.26s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.42s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.42s/it]
+Starting model testing...
+Relative error: 0.9877166152000427
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/rectangle_S.png
+[19/20] Running config/examples/time_indep/semicircle_F.json
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: vx
+Setting up variable coordinates mode...
+Using torch_cluster for efficient neighbor search
+Building test graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Building train graphs...
+Building graphs for 16 samples...
+Processed 16/16 samples (0.27s)
+Graph building completed in 0.27s
+Building val graphs...
+Building graphs for 4 samples...
+Processed 4/4 samples (0.07s)
+Graph building completed in 0.07s
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396161
+Using CUDA device 0: NVIDIA A100-PCIE-40GB
+Model parameter device: cuda:0
+CUDA memory allocated/reserved: 13.0 MiB / 14.0 MiB
+AdamWOptimizer:   0%|[34m          [0m| 0/1 [00:00<?, ?it/s]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.63s/it]AdamWOptimizer: 100%|[34m██████████[0m| 1/1 [00:01<00:00,  1.63s/it]
+Starting model testing...
+Relative error: 0.9996942281723022
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/semicircle_F.png
+[20/20] Running config/examples/time_indep/wave_gauss.json
+Initializing dataset...
+Loading and preprocessing data...
+Traceback (most recent call last):
+  File "/scratch/09892/briankim31415/GAOT/main.py", line 198, in <module>
+    run_arg_files(config.arg_files, config.debug, config.num_works_per_device)
+  File "/scratch/09892/briankim31415/GAOT/main.py", line 134, in run_arg_files
+    run_arg(FileParser(arg_files[0]).parse_args())
+  File "/scratch/09892/briankim31415/GAOT/main.py", line 104, in run_arg
+    t = Trainer(arg)
+  File "/scratch/09892/briankim31415/GAOT/src/trainer/static_trainer.py", line 38, in __init__
+    super().__init__(config)
+  File "/scratch/09892/briankim31415/GAOT/src/core/base_trainer.py", line 75, in __init__
+    self.init_dataset(self.dataset_config)
+  File "/scratch/09892/briankim31415/GAOT/src/trainer/static_trainer.py", line 50, in init_dataset
+    data_splits, is_variable_coords = self.data_processor.load_and_process_data()
+  File "/scratch/09892/briankim31415/GAOT/src/datasets/data_processor.py", line 60, in load_and_process_data
+    data_splits = self._split_and_normalize_data(raw_data, is_variable_coords)
+  File "/scratch/09892/briankim31415/GAOT/src/datasets/data_processor.py", line 157, in _split_and_normalize_data
+    assert u_array.shape[1] == 1, "Expected num_timesteps to be 1 for static datasets"
+AssertionError: Expected num_timesteps to be 1 for static datasets
+[20/20] FAILED config/examples/time_indep/wave_gauss.json (exit 1)
+Failures:
+- config/examples/time_dep/ns_gauss.json (exit 1)
+- config/examples/time_indep/elasticity.json (exit 1)
+- config/examples/time_indep/wave_gauss.json (exit 1)

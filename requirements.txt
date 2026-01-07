@@ -1,5 +1,13 @@
+--index-url https://download.pytorch.org/whl/cu118
+--extra-index-url https://pypi.org/simple
+--find-links https://data.pyg.org/whl/torch-2.4.1+cu118.html
+
+torch==2.4.1+cu118
+torch-scatter
+torch-cluster
+torch-geometric
+
 numpy
-torch
 pandas
 toml
 omegaconf
@@ -9,4 +17,4 @@ tqdm
 seaborn
 scikit-learn
 rotary-embedding-torch
-torch-geometric
+netCDF4
