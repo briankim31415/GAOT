@@ -1,0 +1,10 @@
+Initializing sequential dataset...
+Loading and preprocessing sequential data...
+Sequential data loading and preprocessing complete.
+Detected coordinate mode: fx
+Setting up fixed coordinates mode for sequential data...
+Sequential dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model for sequential data with 2D coordinates
+Number of parameters: 3396161

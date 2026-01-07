@@ -18,3 +18,7 @@ seaborn
 scikit-learn
 rotary-embedding-torch
 netCDF4
+
+# ipykernel==6.29.5
+# jupyter_client==8.6.2
+# pyzmq==26.2.0

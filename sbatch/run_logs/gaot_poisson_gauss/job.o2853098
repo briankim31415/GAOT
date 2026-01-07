@@ -1,0 +1,14 @@
+Initializing dataset...
+Loading and preprocessing data...
+Computing statistics and normalizing data
+Data loading and preprocessing complete.
+Detected coordinate mode: fx
+Setting up fixed coordinates mode...
+Dataset initialization complete.
+Using torch_cluster for efficient neighbor search
+Using torch_cluster for efficient neighbor search
+Initialized goat model with 2D coordinates
+Number of parameters: 3396033
+Starting model testing...
+Relative error: 0.01944524236023426
+Plot saved to /scratch/09892/briankim31415/GAOT/.results/examples/time_indep/poisson_gauss.png
