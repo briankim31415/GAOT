@@ -31,7 +31,7 @@
     "dataset": {
         "name": "NACA2412",
         "metaname": "compressible_flow/naca2412",
-        "base_path": "datasets/time_indep/",
+        "base_path": "${oc.env:GAOT_DATASETS_TIME_INDEP}",
         "train_size": 16,
         "val_size": 4,
         "test_size": 4,

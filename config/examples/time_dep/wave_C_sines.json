@@ -31,7 +31,7 @@
     "dataset": {
         "name": "Wave-C-Sines",
         "metaname": "hyperbolic_pdes/Wave-C-Sines",
-        "base_path": "datasets/time_dep/",
+        "base_path": "${oc.env:GAOT_DATASETS_TIME_DEP}",
         "use_metadata_stats": false,
         "use_sparse": false,
         "train_size": 1024,

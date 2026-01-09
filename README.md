@@ -5,6 +5,12 @@ This repository contains the official source code for the paper:
 
 For the optimized implementation of ultra-large 3D datasets with varying data resolution, e.g., DrivaerNet++, DrivaerML and NASA CRM, please refer to our other repository: [**GAOT3D**](https://github.com/Shizheng-Wen/GAOT-3D).
 
+Dataset paths are configured via environment variables in the example configs. If you use a venv, add these exports to `venv-gaot/bin/activate` (update the paths for your shared dataset location) so the configs stay portable across users:
+```bash
+export GAOT_DATASETS_TIME_INDEP=/work/<group>/<user>/shared/gaot-datasets/time_indep
+export GAOT_DATASETS_TIME_DEP=/work/<group>/<user>/shared/gaot-datasets/time_dep
+```
+
 ## :sparkles: Updates
 ***25/09/2025***
 1. **GAOT has been accepted in NeurIPS 2025!** 🎉
